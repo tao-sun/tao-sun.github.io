@@ -37,11 +37,11 @@
 <loc>http://localhost:4000/blog/page2/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/Resume.pdf</loc>
+<loc>http://localhost:4000/assets/CV.pdf</loc>
 <lastmod>2017-07-11T01:05:16+01:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/Springer-APB.pdf</loc>
+<loc>http://localhost:4000/assets/Springer-APB.pdf</loc>
 <lastmod>2015-03-27T08:54:08+00:00</lastmod>
 </url>
 </urlset>
