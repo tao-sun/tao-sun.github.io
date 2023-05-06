@@ -94,7 +94,7 @@ sections:
         - title: Team Lead
           company: SAS
           company_url: 'https://www.sas.com'
-          comapny_logo: sas-logo
+          # comapny_logo: sas-logo
           location: Beijing, China
           date_start: '2011-09-01'
           date_end: '2015-07-25'
