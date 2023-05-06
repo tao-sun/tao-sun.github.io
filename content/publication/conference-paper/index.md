@@ -1,23 +1,28 @@
 ---
-title: 'An example conference paper'
+title: 'Boosting the intelligibility of waveform speech enhancement networks through self-supervised representations'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - admin
-  - Robert Ford
+  - Tao Sun
+  - Shuyu Gong
+  - Zhewei Wang
+  - Charles D Smith 
+  - Xianhui Wang
+  - Li Xu
+  - Jundong Liu
 
 # Author notes (optional)
-author_notes:
-  - 'Equal contribution'
-  - 'Equal contribution'
+# author_notes:
+  # - 'Equal contribution'
+  # - 'Equal contribution'
 
 date: '2013-07-01T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2017-01-01T00:00:00Z'
+publishDate: '2021-12-13T00:00:00Z'
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -26,32 +31,32 @@ publishDate: '2017-01-01T00:00:00Z'
 publication_types: ['1']
 
 # Publication name and optional abbreviated publication name.
-publication: In *Wowchemy Conference*
-publication_short: In *ICW*
+publication: In ICMAL 2021
+publication_short: In ICMAL 2021
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: The ultimate goal of speech enhancement is to improve speech quality and intelligibility. Integrating human speech elements into waveform denoising neural networks has proven to be a simple yet effective strategy for this purpose. Such integration, however, has mostly been carried out within supervised learning settings, without taking advantage of the power of the latest self-supervised learning models, which have demonstrated remarkable capability of extracting knowledge from large training sets. In this paper, we present K-SENet, a knowledge-assisted waveform framework for speech enhancement. Wave-U-Net is utilized as the baseline model and the foundation to build our framework. To achieve enhanced intelligibility, we propose a perceptual loss function that relies on self-supervised speech representations pretrained on large datasets, to provide guidance for the baseline network. Wav2vec and PASE are the choices of self-supervised models in this work. Our proposed perceptual loss is calculated upon the perceptual similarities captured by the speech representations. Minimizing this loss would ensure the denoised network outputs sound like clean human speeches. Experiments on the Noisy VCTK and modified TIMIT datasets demonstrate that our K-SENet can significantly improve the perceptual quality of network outputs.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+# summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
 tags: []
 
 # Display this page in the Featured widget?
-featured: true
+featured: false
 
 # Custom links (uncomment lines below)
 # links:
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: ''
-url_code: 'https://github.com/wowchemy/wowchemy-hugo-themes'
-url_dataset: 'https://github.com/wowchemy/wowchemy-hugo-themes'
-url_poster: ''
-url_project: ''
-url_slides: ''
-url_source: 'https://github.com/wowchemy/wowchemy-hugo-themes'
-url_video: 'https://youtube.com'
+url_pdf: 'https://www.researchgate.net/publication/357355747_Boosting_the_Intelligibility_of_Waveform_Speech_Enhancement_Networks_through_Self-supervised_Representations#fullTextFileContent'
+# url_code: 'https://github.com/wowchemy/wowchemy-hugo-themes'
+# url_dataset: 'https://github.com/wowchemy/wowchemy-hugo-themes'
+# url_poster: ''
+# url_project: ''
+# url_slides: ''
+# url_source: 'https://github.com/wowchemy/wowchemy-hugo-themes'
+# url_video: 'https://youtube.com'
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
@@ -65,15 +70,15 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects:
-  - example
+# projects:
+#   - example
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
-slides: example
+# slides: example
 ---
 
 {{% callout note %}}

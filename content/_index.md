@@ -72,27 +72,33 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: Postdoc Researcher
-          company: CWI
-          company_url: ''
+        - title: Researcher
+          company: Centrum Wiskunde & Informatica (CWI)
+          company_url: 'https://www.cwi.nl'
           company_logo: cwi-logo
           location: Amsterdam, The Netherlands
           date_start: '2022-05-15'
           date_end: ''
           description: |2-
-              Responsibilities include:
-
-              * Analysing
-              * Modelling
-              * Deploying
-        - title: Phd Candidates
+              Working under the Dutch Research Council (NWA) grant “Perceptive acting under uncertainty: safety solutions for autonomous systems”.
+              
+        - title: PhD Student
           company: Ohio University
-          company_url: ''
+          company_url: 'https://www.ohio.edu'
           company_logo: ohio-logo
-          location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
-          description: Taught electronic engineering and researched semiconductor physics.
+          location: Athen, Ohio
+          date_start: '2016-08-28'
+          date_end: '2022-04-29'
+          description:
+          
+        - title: Team Lead
+          company: SAS
+          company_url: 'https://www.sas.com'
+          comapny_logo: sas-logo
+          location: Beijing, China
+          date_start: '2011-09-01'
+          date_end: '2015-07-25'
+          description:
     design:
       columns: '2'
   # - block: accomplishments

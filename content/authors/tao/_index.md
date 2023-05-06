@@ -14,7 +14,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Posdoc Researcher
+role: Researcher
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -50,16 +50,16 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: '/#contact'
-  - icon: twitter
-    icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
-    label: Follow me on Twitter
-    display:
-      header: false
+    link: 'mailto:tao.sun@cwi.nl'
+  # - icon: twitter
+  #   icon_pack: fab
+  #   link: https://twitter.com/
+  #   label: Follow me on Twitter
+  #   display:
+  #     header: false
   - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
     icon_pack: fas
-    link: https://scholar.google.co.uk/citations?user=A0BDqV4AAAAJ
+    link: https://scholar.google.com/citations?user=A0BDqV4AAAAJ&hl=en
   # - icon: github
   #   icon_pack: fab
   #   link: https://github.com/gcushen
@@ -80,5 +80,5 @@ email: 'tao.sun@cwi.nl'
 highlight_name: true
 ---
 
-Alice Wu is a Postdoc researcher in CWI.
+Tao Sun is a researcher in CWI.
 {style="text-align: justify;"}
