@@ -90,15 +90,16 @@ sections:
           date_start: '2016-08-28'
           date_end: '2022-04-29'
           description:
-          
+        
         - title: Team Lead
           company: SAS
           company_url: 'https://www.sas.com'
-          # comapny_logo: sas-logo
+          company_logo: sas-logo
           location: Beijing, China
           date_start: '2011-09-01'
           date_end: '2015-07-25'
           description:
+          
     design:
       columns: '2'
   # - block: accomplishments
