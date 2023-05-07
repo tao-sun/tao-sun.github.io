@@ -1,7 +1,9 @@
 ---
 title: "Efficient Uncertainty Estimation in Spiking Neural Networks via MC-dropout"
 authors:
-- Tao Sun, Bojian Yin, Sander Bohte
+  - Tao Sun
+  - Bojian Yin
+  - Sander Bohte
 date: "2023-04-23T00:00:00Z"
 doi: ""
 
