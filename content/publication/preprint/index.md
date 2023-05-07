@@ -26,7 +26,7 @@ abstract:  Spiking neural networks (SNNs) have gained attention as models of spa
 
 tags:
 - Source Themes
-featured: false
+featured: True
 
 # links:
 # - name: Custom Link
