@@ -26,22 +26,20 @@ bio: My research interests include spiking neural networks and speech enhancemen
 
 # Interests to show in About widget
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Spiking neural networks
+  - Neuromorphic computing
+  - Safety AI / Uncertainty estimation
+  - Speech separation /  Speech enhancement
 
 # Education to show in About widget
 education:
   courses:
     - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
+      institution: Ohio University
+      # year: 2022
+    - course: MS in Electrical Engineering
+      institution: Huazhong University of Science and Technology
+      # year: 2005
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
@@ -51,15 +49,15 @@ social:
   - icon: envelope
     icon_pack: fas
     link: 'mailto:tao.sun@cwi.nl'
+  - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
+    icon_pack: fas
+    link: https://scholar.google.com/citations?user=A0BDqV4AAAAJ&hl=en
   # - icon: twitter
   #   icon_pack: fab
   #   link: https://twitter.com/
   #   label: Follow me on Twitter
   #   display:
   #     header: false
-  - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
-    icon_pack: fas
-    link: https://scholar.google.com/citations?user=A0BDqV4AAAAJ&hl=en
   # - icon: github
   #   icon_pack: fab
   #   link: https://github.com/gcushen
@@ -80,5 +78,5 @@ email: 'tao.sun@cwi.nl'
 highlight_name: true
 ---
 
-Tao Sun is a researcher in CWI.
+As a neuromorphic researcher, my work primarily focuses on developing <strong>neuromorphic algorithms</strong>, particularly <strong>spiking neural networks (SNNs)</strong>, with a special emphasis on <strong>uncertainty estimation</strong> and <strong>speech enhancement</strong>. <strong>Uncertainty estimation</strong> is a key tool for assessing the reliability of machine learning models, enabling robust decision-making in dynamic and noisy environments. It is vital for high-stakes applications such as self-driving vehicles, medical image processing, and financial forecasting. I have extensive research experience on <strong>speech separation</strong>, a task that isolates a target speech from background noise (<strong>speech enhancement</strong>) or other interfering speakers (<strong>speaker separation</strong>). 
 {style="text-align: justify;"}

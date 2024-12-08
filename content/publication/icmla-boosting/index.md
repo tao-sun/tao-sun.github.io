@@ -18,8 +18,8 @@ authors:
   # - 'Equal contribution'
   # - 'Equal contribution'
 
-date: '2013-07-01T00:00:00Z'
-doi: ''
+date: '2021-12-13T00:00:00Z'
+doi: '10.1109/ICMLA52953.2021.00163'
 
 # Schedule page publish date (NOT publication's date).
 publishDate: '2021-12-13T00:00:00Z'
@@ -31,8 +31,8 @@ publishDate: '2021-12-13T00:00:00Z'
 publication_types: ['1']
 
 # Publication name and optional abbreviated publication name.
-publication: In ICMAL 2021
-publication_short: In ICMAL 2021
+publication: "*International Conference on Machine Learning and Applications* (ICMLA, 2021)"
+publication_short: ""
 
 abstract: The ultimate goal of speech enhancement is to improve speech quality and intelligibility. Integrating human speech elements into waveform denoising neural networks has proven to be a simple yet effective strategy for this purpose. Such integration, however, has mostly been carried out within supervised learning settings, without taking advantage of the power of the latest self-supervised learning models, which have demonstrated remarkable capability of extracting knowledge from large training sets. In this paper, we present K-SENet, a knowledge-assisted waveform framework for speech enhancement. Wave-U-Net is utilized as the baseline model and the foundation to build our framework. To achieve enhanced intelligibility, we propose a perceptual loss function that relies on self-supervised speech representations pretrained on large datasets, to provide guidance for the baseline network. Wav2vec and PASE are the choices of self-supervised models in this work. Our proposed perceptual loss is calculated upon the perceptual similarities captured by the speech representations. Minimizing this loss would ensure the denoised network outputs sound like clean human speeches. Experiments on the Noisy VCTK and modified TIMIT datasets demonstrate that our K-SENet can significantly improve the perceptual quality of network outputs.
 
