@@ -68,7 +68,7 @@ profiles:
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/sunxcint/
   - icon: academicons/google-scholar
-    url: ttps://scholar.google.com/citations?user=A0BDqV4AAAAJ&hl=en
+    url: https://scholar.google.com/citations?user=A0BDqV4AAAAJ&hl=en
   - icon: academicons/orcid
     url: https://orcid.org/0000-0002-8967-8760
 
